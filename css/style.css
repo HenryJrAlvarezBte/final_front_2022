@@ -1,0 +1,179 @@
+/* COMIENZA NORMALIZE */
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif;
+}
+
+/* TERMINA NORMALIZE */
+
+.nav1 {
+    background-color: #494c52;
+    height: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    color: aliceblue;
+}
+
+.conf {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.1rem;
+}
+
+.cac-conf {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cac {
+    width: 7.5rem;
+}
+
+.nav2 {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;    
+    gap: 2%;
+    margin: 1%;
+    justify-content: flex-end;  
+    align-items: center;  
+}
+
+.carousel {
+    filter: brightness(0.5);
+}
+
+.main1 {
+    position: absolute;
+    top: 35%;
+    left: 41%;    
+    color: aliceblue;
+    align-items: right;
+    text-align: right;
+    margin: 10%;
+}
+
+.a1 {
+    border:        2px solid #9c9da1;
+    border-radius: 11px;
+    padding:       2.4% 6%;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 15px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+
+.a2 {
+    background:    #15d798;
+    border-radius: 11px;
+    padding:       2.67% 6%;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 15px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+
+.main2 {
+    text-align: center;
+}
+
+.comprarT {
+    color: #259623;
+}
+
+.texto1 {
+    color: gray;    
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.honolulu {
+    display: flex;
+    background-color: #212B2B;
+}
+
+.hono1 {
+    width: 59rem;
+}
+
+.texto {
+    margin: 2rem;
+    color: #ffffff;
+}
+.conoce {
+    border:        2px solid #9c9da1;
+    border-radius: 11px;
+    padding:       2.4% 6%;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+
+.formularios {
+    text-align: center;
+}
+
+.charla {
+    border-bottom:2px dotted black;
+}
+
+.nombre-apellido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;   
+}
+
+.input-nombre-apellido {
+    width: 24rem;
+}
+
+.hablar-sobre {
+    width: 50rem;
+    height: 8rem;
+    
+}
+
+.titulo {
+    margin-top: 0.3rem;
+    margin-left: -37rem;
+    font-size: 0.75rem;
+}
+
+.a3 {
+    background:    #15d798;
+    border-radius: 11px;
+    padding:       0.9% 19.9%;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+
+.navbar {
+    background-color: #1C4153;
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;   
+    color: #ffffff;
+    height: 6rem;
+}
+
+.navbar-nav {
+    gap: 8rem;    
+    margin-top: 1.5rem;
+}
