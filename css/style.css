@@ -62,23 +62,23 @@ a {
 }
 
 .a1 {
-    border:        2px solid #9c9da1;
+    border: 2px solid #9c9da1;
     border-radius: 11px;
-    padding:       2.4% 6%;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 15px/1 "Open Sans", sans-serif;
-    text-align:    center;
+    padding: 2.4% 6%;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 15px/1 "Open Sans", sans-serif;
+    text-align: center;
 }
 
 .a2 {
-    background:    #15d798;
+    background: #15d798;
     border-radius: 11px;
-    padding:       2.67% 6%;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 15px/1 "Open Sans", sans-serif;
-    text-align:    center;
+    padding: 2.67% 6%;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 15px/1 "Open Sans", sans-serif;
+    text-align: center;
 }
 
 .main2 {
@@ -114,13 +114,13 @@ a {
     color: #ffffff;
 }
 .conoce {
-    border:        2px solid #9c9da1;
+    border: 2px solid #9c9da1;
     border-radius: 11px;
-    padding:       2.4% 6%;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 12px/1 "Open Sans", sans-serif;
-    text-align:    center;
+    padding:  2.4% 6%;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 12px/1 "Open Sans", sans-serif;
+    text-align: center;
 }
 
 .formularios {
@@ -157,11 +157,12 @@ a {
 .a3 {
     background:    #15d798;
     border-radius: 11px;
-    padding:       0.9% 19.9%;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 20px/1 "Open Sans", sans-serif;
-    text-align:    center;
+    border: none;
+    padding: 0.9% 19.9%;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+    text-align: center;
 }
 
 .navbar {
@@ -176,4 +177,8 @@ a {
 .navbar-nav {
     gap: 8rem;    
     margin-top: 1.5rem;
+}
+
+textarea {
+    resize: none;
 }
