@@ -67,8 +67,7 @@ a {
     padding: 2.4% 6%;
     color: #ffffff;
     display: inline-block;
-    font: normal bold 15px/1 "Open Sans", sans-serif;
-    text-align: center;
+    font: normal bold 15px/1 "Open Sans", sans-serif;    
 }
 
 .a2 {
@@ -78,7 +77,6 @@ a {
     color: #ffffff;
     display: inline-block;
     font: normal bold 15px/1 "Open Sans", sans-serif;
-    text-align: center;
 }
 
 .main2 {
@@ -101,12 +99,12 @@ a {
 }
 
 .honolulu {
-    display: flex;
+    display: flex;   
     background-color: #212B2B;
 }
 
 .hono1 {
-    width: 59rem;
+    width: 50%;
 }
 
 .texto {
@@ -144,8 +142,7 @@ a {
 
 .hablar-sobre {
     width: 50rem;
-    height: 8rem;
-    
+    height: 8rem;    
 }
 
 .titulo {
@@ -181,4 +178,75 @@ a {
 
 textarea {
     resize: none;
+}
+
+@media only screen and (max-width: 1000px){
+    .main1 {
+        position: absolute;
+        top: 20%;    
+        left: -12%;        
+        color: aliceblue;
+        align-items: right;
+        text-align: right;
+        margin: 13%;
+        font-size: 8px;
+    }
+
+    .a1 {
+        border: 2px solid #9c9da1;
+        border-radius: 11px;
+        padding: 2.4% 4%;
+        color: #ffffff;
+        display: inline-block;
+        font: normal bold 8px/1 "Open Sans", sans-serif;    
+    }
+    
+    .a2 {
+        background: #15d798;
+        border-radius: 11px;
+        padding: 2.67% 4%;
+        color: #ffffff;
+        display: inline-block;
+        font: normal bold 8px/1 "Open Sans", sans-serif;
+    }
+
+    .nav1 {
+        background-color: #494c52;
+        height: 11rem;
+        display: flex;
+        flex-flow: row wrap;
+        color: aliceblue;
+    }
+
+    .honolulu {
+        display: block;
+    }
+
+    .hono1 {
+        width: 100%;
+    }
+
+    .texto {
+        margin: 1.5rem;
+        color: #ffffff;
+    }
+
+    .hablar-sobre {
+        width: 100%;
+        height: 8rem;    
+    }
+
+    .navbar-nav {
+        gap: 2rem;    
+        margin-top: 1.5rem;
+    }
+    
+    .navbar {
+        background-color: #1C4153;
+        display: flex;    
+        justify-content: center;
+        flex-wrap: wrap;   
+        color: #ffffff;
+        height: 30rem;
+    }
 }
