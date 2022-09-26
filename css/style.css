@@ -183,7 +183,7 @@ textarea {
 @media only screen and (max-width: 1000px){
     .main1 {
         position: absolute;
-        top: 20%;    
+        top: 26.8%;    
         left: -12%;        
         color: aliceblue;
         align-items: right;
@@ -247,6 +247,6 @@ textarea {
         justify-content: center;
         flex-wrap: wrap;   
         color: #ffffff;
-        height: 30rem;
+        height: 34rem;
     }
 }
