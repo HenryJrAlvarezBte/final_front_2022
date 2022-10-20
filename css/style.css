@@ -83,7 +83,7 @@ a {
     text-align: center;
 }
 
-.comprarT {
+.comprarTkt {
     color: #259623;
 }
 
@@ -129,7 +129,7 @@ a {
     border-bottom:2px dotted black;
 }
 
-.nombre-apellido {
+.nombre-apellido-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -178,6 +178,82 @@ a {
 
 textarea {
     resize: none;
+}
+
+.tarjetas2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.c1 {
+    border-radius: 3px;
+    text-align: center;
+    border-color: blue;
+}
+
+.c2 {
+    border-radius: 3px;
+    text-align: center;
+    border-color: gray;
+}
+
+.c3 {
+    border-radius: 3px;
+    text-align: center;
+    border-color: yellow;
+}
+
+.venta {
+   text-align: center;
+}
+
+.valor {
+    font-size: 45px;
+}
+
+.input-correo {
+    width: 50rem;
+}
+
+.opciones {
+    width: 24rem;
+    height: 1.75rem;
+}
+
+.cantidad-categoria {
+    margin: 0 auto;
+    border-collapse: separate;
+    text-align: left;
+    border-spacing: 35px 5px;
+}
+
+.input-total {
+    border-radius: 3px;
+    border: none;
+    width: 50rem;
+    height: 3.5rem;
+    background-color: aquamarine;    
+}
+
+.btns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 17px;
+}
+
+.a4 {
+    background:    #15d798;
+    border-radius: 11px;
+    border: none;
+    padding: 0.9% 8.5%;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1000px){
